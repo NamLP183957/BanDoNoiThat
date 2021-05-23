@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+
+	<decorator name="user" page="user.jsp">
+		<pattern>/user/*</pattern>
+	</decorator>
+	
+	<decorator name="authenciate" page="admin.jsp">
+		<pattern>/authenciate</pattern>
+	</decorator>
+
+	<decorator name="authenciate" page="admin.jsp">
+		<pattern>/login</pattern>
+	</decorator>
+	
+	<decorator name="home" page="admin.jsp">
+		<pattern>/home</pattern>
+	</decorator>
+	<decorator name="product" page="admin.jsp">
+		<pattern>/product</pattern>
+	</decorator>
+
+	<decorator name="addProduct" page="admin.jsp">
+		<pattern>/addProduct</pattern>
+	</decorator>
+
+	<decorator name="saveProduct" page="admin.jsp">
+		<pattern>/saveProduct</pattern>
+	</decorator>
+	
+	<decorator name="productDetail" page="admin.jsp">
+		<pattern>/productDetail</pattern>
+	</decorator>
+	
+	<decorator name="updateProduct" page="admin.jsp">
+		<pattern>/updateProduct</pattern>
+	</decorator>
+	
+	<decorator name="deleteProduct" page="admin.jsp">
+		<pattern>/deleteProduct</pattern>
+	</decorator>
+	
+	<decorator name="addImage" page="admin.jsp">
+		<pattern>/addImage</pattern>
+	</decorator>
+</decorators>
